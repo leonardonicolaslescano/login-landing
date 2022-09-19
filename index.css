@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 0 0 220px;
+    background-color: #FEFFFD;
+    /* width: 25%;
+    height: 80%; */
+    border-style: solid ;
+    border-color: #CFD0D1;
+    border-width: 2px;
+    font-family: "Roboto";
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* flex: 1 0 auto; */
+    margin: 0 15px 0 15px;
+}
+.divImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#user-img{
+    width: 70px;
+    height: 70px; 
+    /* flex: 0 0 auto; */
+    margin-top: 10px;
+}
+h1{
+    font-size: large;
+    font-weight: 500;
+    color: gray;
+}
+
+.inputLogin{
+    /* width: 50px; */
+    height: 40px; 
+    border-radius: 4px;
+    border-width: 1;
+    border-style: solid;
+    border-color: #CFD0D1;
+}
+
+#ingresar{
+    margin-top: 15px;
+    background-color: #17214D;
+    color:  #FEFFFD;
+    font-size: x-small;
+    font-weight: bold;
+}
+#resetpass{
+    margin: 15px 0 15px 0;
+    padding: 3px 6px 3px 6px;
+    border-radius: 15px;
+    background-color: #FEFFFD;
+    border-color: #CFD0D1;
+    border-width: 1;
+    border-style: solid;
+    color: gray;
+    font-size: xx-small;
+}
+
+.item_div{
+    align-self: center;
+}
+
